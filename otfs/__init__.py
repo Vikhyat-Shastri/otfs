@@ -1,6 +1,6 @@
 """
-OTFS Deep Learning System
-=========================
+OTFS Modulation Deep Learning System
+=====================================
 
 A physics-compliant Orthogonal Time Frequency Space (OTFS) modulation system
 with deep learning-based channel estimation and data detection.

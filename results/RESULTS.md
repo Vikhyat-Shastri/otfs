@@ -1,6 +1,6 @@
-# OTFS Experimental Results Summary
+# OTFS Modulation Experimental Results Summary
 
-This document summarizes the experimental findings from the OTFS deep learning system.
+This document summarizes the experimental findings from the OTFS modulation deep learning system.
 
 ## Overview
 

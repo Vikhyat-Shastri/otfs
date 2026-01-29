@@ -1,4 +1,4 @@
-# OTFS Deep Learning System Requirements
+# OTFS Modulation Deep Learning System Requirements
 # Python 3.7+
 
 # Core Scientific Computing

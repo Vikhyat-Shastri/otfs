@@ -1,4 +1,4 @@
-# OTFS Deep Learning System
+# OTFS Modulation Deep Learning System
 
 A physics-compliant Orthogonal Time Frequency Space (OTFS) modulation system with deep learning-based channel estimation and data detection.
 
@@ -17,7 +17,7 @@ This project implements a complete OTFS communication system with neural network
 ## Project Structure
 
 ```
-OTFS/
+otfs-modulation/
 ├── README.md                      # This file
 ├── requirements.txt               # Python dependencies
 ├── otfs/                          # Main package
@@ -59,7 +59,7 @@ OTFS/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd OTFS
+cd otfs-modulation
 ```
 
 2. Install dependencies:
