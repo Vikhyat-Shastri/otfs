@@ -189,23 +189,7 @@ Wigner Transform → Time-Frequency → SFFT → Delay-Doppler Grid
 - **Data Detection**: Neural networks for detecting transmitted symbols from received signals
 - **Attention Mechanisms**: CBAM (Convolutional Block Attention Module) for improved performance
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{otfs_dl_system,
-  title={OTFS Deep Learning System},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/OTFS}
-}
-```
-
 ## License
 
-[Specify your license here]
+MIT
 
-## Acknowledgments
-
-This project was developed in collaboration with [Professor Name] and [Collaborator Name].
