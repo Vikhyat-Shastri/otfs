@@ -60,3 +60,8 @@ checkpoints/
 results/figures/*.png
 results/figures/*.jpg
 results/figures/*.pdf
+
+# Semester 2
+sem2/otfs_env/
+sem2/__pycache__/
+sem2/src/__pycache__/

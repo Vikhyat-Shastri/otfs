@@ -1,12 +1,32 @@
 # OTFS Deep Learning System
 
-A physics-compliant Orthogonal Time Frequency Space (OTFS) modulation system with deep learning-based channel estimation and data detection.
+A comprehensive research project on deep learning-based receivers for **Orthogonal Time Frequency Space (OTFS)** modulation in high-mobility wireless systems (6G, vehicular, LEO satellite).
 
-## Overview
+## Repository Structure
 
-This project implements a complete OTFS communication system with neural network-based receivers. The system uses the full OTFS modulation chain (ISFFT → Heisenberg → Channel → Wigner → SFFT) and realistic Linear Time-Variant (LTV) channels with multiple propagation paths, Doppler shifts, and delays.
+| Directory | Semester | Description |
+|-----------|----------|-------------|
+| [`sem2/`](sem2/) | **Semester 2 (Current)** | OAMPNet deep-unfolded receiver with fractional Doppler. Outperforms genie-aided LMMSE in 4–12 dB range. |
+| [`otfs/`](otfs/), [`experiments/`](experiments/), [`archive/`](archive/) | Semester 1 | DNN/ResNet/U-Net/CBAM-based channel estimation and detection. Physics-compliant OTFS chain. |
 
-### Key Features
+> **Start here →** [`sem2/README.md`](sem2/README.md) for the latest OAMPNet work and results.
+> See [`sem2/CONTEXT_LEDGER.md`](sem2/CONTEXT_LEDGER.md) for the research journal tracking all experiments and findings.
+
+---
+
+## Semester 2 — OAMPNet Deep-Unfolded Receiver (Latest)
+
+Deep-unfolded OAMP with learnable LMMSE + CNN denoiser. Beat genie-aided LMMSE (perfect channel knowledge) using only pilot-based estimation:
+
+| SNR (dB) | OAMPNet (pilot est.) | LMMSE (genie) | ZF (genie) |
+|:---------:|:--------------------:|:-------------:|:----------:|
+| 4  | **3.83e-2** | 3.89e-2 | 1.35e-1 |
+| 8  | **3.18e-3** | 6.31e-3 | 5.64e-2 |
+| 12 | **1.67e-4** | 2.79e-4 | 1.78e-2 |
+
+---
+
+## Semester 1 — DNN / ResNet / U-Net Channel Estimation
 
 - **Physics-Compliant OTFS Chain**: Full modulation/demodulation transforms
 - **Realistic Channel Models**: LTV channels with multipath, Doppler, and delays
